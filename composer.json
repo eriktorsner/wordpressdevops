@@ -1,0 +1,17 @@
+{
+	"require": {
+		"eriktorsner\/wp-bootstrap": "^0.3.2"
+	},
+	"scripts": {
+		"wp-bootstrap": "vendor\/bin\/wpbootstrap wp-bootstrap",
+		"wp-install": "vendor\/bin\/wpbootstrap wp-install",
+		"wp-setup": "vendor\/bin\/wpbootstrap wp-setup",
+		"wp-update": "vendor\/bin\/wpbootstrap wp-update",
+		"wp-export": "vendor\/bin\/wpbootstrap wp-export",
+		"wp-import": "vendor\/bin\/wpbootstrap wp-import",
+		"wp-pullsettings": "vendor\/bin\/wpbootstrap wp-updateAppSettings",
+		"wp-init": "vendor\/bin\/wpbootstrap wp-init",
+		"wp-init-composer": "vendor\/bin\/wpbootstrap wp-initComposer",
+		"wp-snapshots": "vendor\/bin\/wpbootstrap wp-snapshots"
+	}
+}

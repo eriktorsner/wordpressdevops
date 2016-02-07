@@ -1,11 +1,11 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-HOSTNAME = 'local'
-IPNUMBER = '192.168.50.999'
-DEVDNS   = 'www.wordpress.local'
-TESTDNS  = 'test.wordpress.local'
-STAGEDNS  = 'staging.wordpress.local'
+HOSTNAME = 'wordpressdevops'
+IPNUMBER = '192.168.50.26'
+DEVDNS   = 'www.wordpressdevops.local'
+TESTDNS  = 'test.wordpressdevops.local'
+STAGEDNS  = 'staging.wordpressdevops.local'
 
 dir = Dir.pwd
 require dir + '/vagrant/Vagrant'

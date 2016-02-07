@@ -1,3 +1,5 @@
 www/
 staging/
 .vagrant
+vendor/
+localsettings.json
